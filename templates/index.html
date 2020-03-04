@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Car Prices</title>
+  </head>
+  <body style = "background: url(https://s1.1zoom.me/b5050/758/Jaguar_F-Pace_E-Pace_I-Pace_Three_3_557725_1920x1080.jpg)">
+
+    <form action = "http://localhost:4000/result" method="POST">
+      <p><font color="white" size ="4">Select Location:</font>
+      <select name="Location">
+        <option value="Mumbai">Mumbai</option>
+        <option value="Pune">Pune</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Coimbatore">Coimbatore</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Jaipur">Jaipur</option>
+        <option value="Kochi">Kochi</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Ahmedabad">Ahmedabad</option>
+        </select>
+      <p><font color="white" size ="4">Kilometers_Driven (0-7000000)</font> <input type="number" name= 'Kilometers_Driven' /></p>
+      <p><font color="white" size ="4">Select Fuel_Type:</font>
+      <select name="Fuel_Type">
+        <option value="CNG">CNG</option>
+        <option value="Diesel">Diesel</option>
+        <option value="Petrol">Petrol</option>
+        <option value="LPG">LPG</option>
+      </select>
+      <p><font color="white" size ="4">Select Transmission:</font>
+      <select name="Transmission">
+        <option value="Automatic">Automatic</option>
+        <option value="Manual">Manual</option>
+      </select>
+      <p><font color="white" size ="4">Select Owner_Type:</font>
+      <select name="Owner_Type">
+        <option value="First">First</option>
+        <option value="Second">Second</option>
+        <option value="Third">Third</option>
+        <option value="Fourth & Above">Fourth & Above</option>
+      </select>
+      <p><font color="white" size ="4">Mileage (0-35)</font> <input type="number" name="Mileage" /></p>
+      <p><font color="white" size ="4">Engine (cc) (500-6000)</font> <input type="number" name="Engine" /></p>
+      <p><font color="white" size ="4">Power (bhp) (0-600)</font> <input type="number" name="Power" /></p>
+      <p><font color="white" size ="4">Select Seats:</font>
+      <select name="Seats">
+        <option value=0>0</option>
+        <option value=2>2</option>
+        <option value=4>4</option>
+        <option value=5>5</option>
+        <option value=6>6</option>
+        <option value=7>7</option>
+        <option value=8>8</option>
+        <option value=9>9</option>
+        <option value=10>10</option>
+      </select>
+      <p><font color="white" size ="4">Select Brand:</font>
+      <select name="Brand">
+        <option value="maruti">maruti</option>
+        <option value="hyundai">hyundai</option>
+        <option value="honda">honda</option>
+        <option value="audi">audi</option>
+        <option value="nissan">nissan</option>
+        <option value="toyota">toyota</option>
+        <option value="volkswagen">volkswagen</option>
+        <option value="tata">tata</option>
+        <option value="land">land</option>
+        <option value="mitsubishi">mitsubishi</option>
+        <option value="renault">renault</option>
+        <option value="mercedes-benz">mercedes-benz</option>
+        <option value="bmw">bmw</option>
+        <option value="mahindra">mahindra</option>
+        <option value="ford">ford</option>
+        <option value="porsche">porsche</option>
+        <option value="datsun">datsun</option>
+        <option value="jaguar">jaguar</option>
+        <option value="volvo">volvo</option>
+        <option value="chevrolet">chevrolet</option>
+        <option value="skoda">skoda</option>
+        <option value="mini">mini</option>
+        <option value="fiat">fiat</option>
+        <option value="jeep">jeep</option>
+        <option value="ambassador">ambassador</option>
+        <option value="isuzu">isuzu</option>
+        <option value="force">force</option>
+        <option value="bentley">bentley</option>
+        <option value="lamborghini">lamborghini</option>
+      </select>
+      <p><font color="white" size ="4">Age (Years) (0-25)</font> <input type="number" name="Age" /></p>
+      <p><input type ="submit" value="submit"/></p>
+    </form>
+
+  </body>
+</html>
